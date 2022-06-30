@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "MeetingProtobuf.Protos";
+
+package MeetingProtobuf.Protos;
+
+enum Action
+{
+	ADDED = 0;
+	REMOVED = 1;
+	CHANGED = 2;
+}
